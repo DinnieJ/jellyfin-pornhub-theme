@@ -13,14 +13,16 @@
   overflow-x: hidden;
 }
 
-#loginPage .squareCard {
-  width: 50% !important;
-  background: #1b1b1b !important;
-  transform: none !important;
+.emby-input,
+.emby-textarea {
+  color: #ffa31a;
+  background: #1b1b1b;
+  border: 1px solid #292929;
+  border-radius: 0.2em;
 }
-
-#loginPage .cardText {
-  opacity: 0.6;
+.emby-input:focus,
+.emby-textarea:focus {
+  border-color: #ffa31a;
 }
 
 /*# sourceMappingURL=theme.css.map */
