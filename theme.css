@@ -25,4 +25,20 @@
   border-color: #ffa31a;
 }
 
+.button-submit {
+  background: #292929;
+  color: #ffffff;
+}
+.button-submit:focus {
+  background: #ffa31a;
+}
+
+.checkboxListLabel, .inputLabel, .inputLabelUnfocused, .paperListLabel, .textareaLabelUnfocused {
+  color: #ffffff;
+}
+
+.inputLabelFocused, .textareaLabelFocused, .selectLabelFocused {
+  color: #ffa31a;
+}
+
 /*# sourceMappingURL=theme.css.map */

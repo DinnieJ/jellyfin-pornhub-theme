@@ -1,9 +1,13 @@
 @import './variable.sass'
 
-#loginPage .squareCard
-    width: 50% !important
-    background: $background!important
-    transform: none !important
+.button-submit
+    background: $accent;
+    color: $foreground;
+    &:focus
+        background: $primary
 
-#loginPage .cardText
-    opacity: 0.6
+.checkboxListLabel, .inputLabel, .inputLabelUnfocused, .paperListLabel, .textareaLabelUnfocused
+    color: $foreground
+
+.inputLabelFocused, .textareaLabelFocused, .selectLabelFocused
+    color: $primary
