@@ -25,6 +25,43 @@
   border-color: #ffa31a;
 }
 
+.emby-select-withcolor {
+  color: inherit;
+  background: #292929;
+  border: 0.07em solid #292929;
+}
+
+.emby-select-withcolor > option {
+  color: inherit;
+  background: #292929;
+}
+
+.emby-select-withcolor:focus {
+  border-color: #ffa31a !important;
+}
+
+.emby-select-tv-withcolor:focus {
+  background-color: #ffa31a !important;
+  color: #ffffff !important;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline {
+  border-color: #ffa31a;
+}
+
+.emby-checkbox:focus + span + .checkboxOutline {
+  border-color: #ffffff;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline,
+.itemProgressBarForeground {
+  background-color: #ffa31a;
+}
+
+.emby-checkbox:focus:not(:checked) + span + .checkboxOutline {
+  border-color: #ffa31a;
+}
+
 .button-submit {
   background: #292929;
   color: #ffffff;

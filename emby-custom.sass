@@ -9,3 +9,32 @@
 
     &:focus
         border-color: $primary
+
+.emby-select-withcolor
+    color: inherit
+    background: $accent
+    border: 0.07em solid $accent
+
+.emby-select-withcolor > option
+    color: inherit
+    background: $accent
+
+.emby-select-withcolor:focus
+    border-color: $primary !important
+
+.emby-select-tv-withcolor:focus
+    background-color: $primary !important
+    color: $foreground !important
+
+.emby-checkbox:checked + span + .checkboxOutline
+    border-color: $primary
+
+.emby-checkbox:focus + span + .checkboxOutline
+    border-color: $foreground
+
+.emby-checkbox:checked + span + .checkboxOutline,
+.itemProgressBarForeground
+    background-color: $primary
+
+.emby-checkbox:focus:not(:checked) + span + .checkboxOutline
+    border-color: $primary
