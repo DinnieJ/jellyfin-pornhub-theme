@@ -32,6 +32,9 @@
 .button-submit:focus {
   background: #ffa31a;
 }
+.button-submit:hover {
+  background: #ffa31a;
+}
 
 .checkboxListLabel, .inputLabel, .inputLabelUnfocused, .paperListLabel, .textareaLabelUnfocused {
   color: #ffffff;
