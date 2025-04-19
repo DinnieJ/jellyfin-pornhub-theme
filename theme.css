@@ -1,3 +1,13 @@
+* {
+  scrollbar-width: 10px;
+  scrollbar-color: #ffa31a #292929;
+}
+
+html {
+  background-color: #000;
+  color: #ffa31a;
+}
+
 ::-moz-selection {
   background: #ffa31a;
   text-shadow: none;
@@ -11,6 +21,60 @@
 .force-scroll {
   overflow-y: auto;
   overflow-x: hidden;
+}
+
+.skinHeader {
+  background-color: #000;
+  color: #ffa31a;
+}
+
+.navMenuOption:hover {
+  background: #ffa31a !important;
+  color: #ffffff;
+}
+
+.navMenuOption-selected {
+  background: #ffa31a !important;
+  color: #ffffff;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .paper-icon-button-light:hover:not(:disabled) {
+    color: #ffa31a;
+    background-color: rgba(255, 209, 140.5, 0.5);
+  }
+}
+.paper-icon-button-light:active:not(:disabled) {
+  color: #ffa31a;
+  background-color: rgba(255, 209, 140.5, 0.5);
+}
+
+.paper-icon-button-light.show-focus:focus {
+  color: #ffa31a;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #292929;
+}
+
+.layout-desktop ::-webkit-scrollbar,
+.layout-tv ::-webkit-scrollbar {
+  width: 0.4em;
+  height: 0.4em;
+}
+
+::-webkit-scrollbar-thumb:horizontal,
+::-webkit-scrollbar-thumb:vertical {
+  border-radius: 2px;
+  background: center no-repeat #292929;
+}
+
+.timeslotHeaders-desktop::-webkit-scrollbar {
+  height: 0.7em;
 }
 
 .emby-input,
@@ -60,6 +124,61 @@
 
 .emby-checkbox:focus:not(:checked) + span + .checkboxOutline {
   border-color: #ffa31a;
+}
+
+.sectionTitle {
+  color: #ffa31a;
+}
+
+.sectionTitleTextButton {
+  color: #ffa31a;
+}
+
+.emby-button.show-focus:focus {
+  background: #ffa31a;
+  color: #ffffff;
+}
+
+.emby-button.detailFloatingButton {
+  background-color: #ffa31a;
+  color: #ffffff;
+}
+
+.layout-tv .emby-button.detailFloatingButton:focus {
+  background-color: #f2f2f2;
+  color: #ffa31a;
+}
+
+.button-link {
+  color: #ffa31a;
+}
+
+.emby-button.show-focus:focus {
+  background: #ffa31a;
+  color: #fff;
+}
+
+.emby-tab-button {
+  color: #292929 !important;
+  background-color: #ffa31a !important;
+}
+
+.emby-tab-button-active {
+  color: rgb(196.7, 117.676419214, 0);
+}
+
+.emby-tab-button.show-focus:focus {
+  color: #ffa31a;
+}
+
+.emby-tab-button:hover {
+  color: #ffa31a !important;
+  background-color: #292929 !important;
+}
+
+.countIndicator, .fullSyncIndicator, .mediaSourceIndicator, .playedIndicator {
+  background: #ffa31a;
+  color: #1b1b1b;
 }
 
 .button-submit {

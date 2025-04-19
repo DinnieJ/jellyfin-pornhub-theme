@@ -1,3 +1,4 @@
+@use "sass:color"
 @import "./variable"
 
 .emby-input,
@@ -38,3 +39,50 @@
 
 .emby-checkbox:focus:not(:checked) + span + .checkboxOutline
     border-color: $primary
+
+.sectionTitle
+    color: $primary
+
+.sectionTitleTextButton
+    color: $primary
+
+.emby-button.show-focus:focus
+    background: $primary
+    color: $foreground
+
+.emby-button.detailFloatingButton
+    background-color: $primary
+    color: $foreground
+
+.layout-tv .emby-button.detailFloatingButton:focus
+    background-color: #f2f2f2
+    color: $primary
+
+.button-link
+    color: $primary
+
+.emby-button.show-focus:focus 
+    background: $primary;
+    color: #fff;
+
+
+.emby-tab-button 
+    color: $accent !important;
+    background-color: $primary !important
+
+
+.emby-tab-button-active 
+    color: color.scale($primary, $lightness: -30%);
+
+
+.emby-tab-button.show-focus:focus 
+    color: $primary;
+
+
+.emby-tab-button:hover 
+    color: $primary !important;
+    background-color: $accent !important
+
+.countIndicator, .fullSyncIndicator, .mediaSourceIndicator, .playedIndicator
+    background: $primary
+    color: $background

@@ -1,5 +1,13 @@
 @import "./variable.sass"
 
+*
+    scrollbar-width: 10px
+    scrollbar-color: $primary $accent
+
+html
+    background-color: #000;
+    color: $primary
+
 ::-moz-selection
     background: $primary
     text-shadow: none
@@ -11,6 +19,11 @@
 .force-scroll
     overflow-y: auto
     overflow-x: hidden
-
+.skinHeader
+    background-color: #000
+    color: $primary
+@import "./nav"
+@import "./paper"
+@import "./scrollbar"
 @import "./emby-custom"
 @import "./login"

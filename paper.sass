@@ -1,0 +1,16 @@
+@use "sass:color"
+@import "./variable"
+
+
+
+@media (hover: hover) and (pointer: fine)
+    .paper-icon-button-light:hover:not(:disabled)
+        color: $primary
+        background-color: rgba(color.scale($primary, $lightness: 50%), 0.5);
+
+.paper-icon-button-light:active:not(:disabled)
+    color: $primary
+    background-color: rgba(color.scale($primary, $lightness: 50%), 0.5);
+
+.paper-icon-button-light.show-focus:focus
+    color: $primary
